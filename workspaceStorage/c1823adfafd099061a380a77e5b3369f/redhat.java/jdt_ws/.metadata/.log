@@ -1,0 +1,4902 @@
+!SESSION 2018-12-23 16:38:53.835 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/arturo/.config/Code/User/workspaceStorage/c1823adfafd099061a380a77e5b3369f/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.410
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.605
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.636
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.637
+!MESSAGE Initializing Java Language Server 0.30.0.201812180453
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.641
+!MESSAGE No workspace folders or root uri was defined. Falling back on /home/arturo/.config/Code/User/workspaceStorage/c1823adfafd099061a380a77e5b3369f/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.645
+!MESSAGE Installed reference:file:/home/arturo/.vscode/extensions/vscjava.vscode-java-debug-0.16.0/server/com.microsoft.java.debug.plugin-0.16.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.646
+!MESSAGE Installed reference:file:/home/arturo/.vscode/extensions/vscjava.vscode-java-dependency-0.3.0/server/com.microsoft.jdtls.ext.core-0.3.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.648
+!MESSAGE Installed reference:file:/home/arturo/.vscode/extensions/vscjava.vscode-java-test-0.12.0/server/com.microsoft.java.test.plugin-0.12.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.714
+!MESSAGE Started reference:file:/home/arturo/.vscode/extensions/vscjava.vscode-java-debug-0.16.0/server/com.microsoft.java.debug.plugin-0.16.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.729
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:00.774
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:02.004
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:02.756
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:02.764
+!MESSAGE Workspace initialized in 2120ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:03.011
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:03.012
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:03.031
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=true, showQualifiedNames=false, maxStringLength=0.0, enableHotCodeReplace=true, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true}}, dependency={showOutline=true, syncWithFolderExplorer=true, packagePresentation=flat}, test={report={position=sideView}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:03.033
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:03.155
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/arturo/Downloads/exp/e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:03.765
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:03.766
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:03.770
+!MESSAGE Reconciled 0, validated: 1. Took 179 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:17.221
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:17.222
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:17.229
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=ignore}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=true, showQualifiedNames=false, maxStringLength=0.0, enableHotCodeReplace=true, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true}}, dependency={showOutline=true, syncWithFolderExplorer=true, packagePresentation=flat}, test={report={position=sideView}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:33.025
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:33.256
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:33.257
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY java-debug 1 0 2018-12-23 16:39:33.319
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:37.308
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:37.480
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:37.482
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:37.770
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:37.772
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:37.777
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:37.885
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:38.101
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:38.344
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:38.345
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:38.349
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:38.597
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:38.598
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:38.599
+!MESSAGE Reconciled 0, validated: 1. Took 94 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:38.857
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:38.896
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.145
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.145
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.362
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.362
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.362
+!MESSAGE Reconciled 0, validated: 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.520
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.764
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.765
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.934
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.934
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:39.935
+!MESSAGE Reconciled 0, validated: 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:40.044
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:40.244
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:40.441
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:40.642
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:40.890
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:40.891
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:40.892
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:41.058
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:41.058
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:41.058
+!MESSAGE Reconciled 0, validated: 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:41.313
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:42.088
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:42.091
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:42.094
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:43.447
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:43.845
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:44.089
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:44.090
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:44.707
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:44.707
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:44.707
+!MESSAGE Reconciled 0, validated: 1. Took 410 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:49.023
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:49.027
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:49.307
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:49.332
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:49.425
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:49.426
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:49.426
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:49.806
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:49.806
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:49.806
+!MESSAGE Reconciled 0, validated: 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:50.062
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:50.656
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:50.902
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:50.903
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:51.170
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:51.170
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:51.171
+!MESSAGE Reconciled 0, validated: 1. Took 113 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:53.462
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:53.622
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:53.757
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:53.999
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:53.999
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:54.000
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:54.199
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:54.199
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:54.200
+!MESSAGE Reconciled 0, validated: 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:54.458
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:54.969
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:55.147
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:55.386
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:55.387
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:55.388
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:55.622
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:55.623
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:55.623
+!MESSAGE Reconciled 0, validated: 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:55.878
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:56.217
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:56.369
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:56.610
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:56.611
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:56.612
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:56.836
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:56.836
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:56.836
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:57.095
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:57.267
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:57.508
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:57.508
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:57.735
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:57.735
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:57.735
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:58.427
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:58.662
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:58.662
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:58.663
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:58.894
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:58.894
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:58.894
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:59.148
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:59.770
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:39:59.968
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:00.209
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:00.209
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:00.210
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:00.228
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:00.449
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:00.626
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:00.827
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:01.068
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:01.069
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:01.070
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:01.244
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:01.244
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:01.244
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:01.498
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:01.860
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:02.094
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:02.342
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:02.343
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:02.344
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:02.564
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:02.565
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:02.565
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:02.823
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:04.378
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:04.546
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:04.749
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:04.988
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:04.989
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:05.218
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:05.218
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:05.218
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:05.565
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:05.807
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:05.808
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:05.809
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:05.852
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:06.032
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:06.271
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:06.272
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:06.272
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:06.497
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:06.497
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:06.497
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:06.752
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:07.484
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:07.686
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:07.857
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:07.988
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:08.228
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:08.229
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:08.230
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:08.456
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:08.456
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:08.456
+!MESSAGE Reconciled 0, validated: 1. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:08.711
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:09.596
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:09.790
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:10.032
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:10.033
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:10.033
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:10.203
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:10.204
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:10.204
+!MESSAGE Reconciled 0, validated: 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:10.458
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:11.635
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:11.882
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:11.883
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:11.883
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:11.943
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.191
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.192
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.192
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.360
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.360
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.360
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.616
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.681
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.921
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.921
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.921
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:12.984
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.228
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.228
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.229
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.479
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.499
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.499
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.499
+!MESSAGE Reconciled 0, validated: 1. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.730
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.732
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.758
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:13.769
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.013
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.014
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.015
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.187
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.187
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.188
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.192
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.385
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.626
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.627
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.628
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.806
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.806
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:14.806
+!MESSAGE Reconciled 0, validated: 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:15.061
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:16.266
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:17.073
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:17.315
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:17.315
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:17.708
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:17.708
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:17.708
+!MESSAGE Reconciled 0, validated: 1. Took 184 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:17.733
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:17.982
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:17.983
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:18.197
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:18.197
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:18.197
+!MESSAGE Reconciled 0, validated: 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:18.452
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:18.688
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:18.931
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:18.931
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:18.932
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:19.149
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:19.149
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:19.149
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:19.404
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:22.256
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:22.496
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:23.681
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:24.234
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:24.524
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:25.532
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:25.780
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:25.780
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:25.781
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.001
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.001
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.001
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.027
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.063
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.095
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.116
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.148
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.178
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.212
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.245
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.266
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.306
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.336
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.367
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.389
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.419
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.454
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.700
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.700
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.913
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.913
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:26.914
+!MESSAGE Reconciled 0, validated: 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:27.750
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.000
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.001
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.001
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.128
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.368
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.369
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.369
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.542
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.543
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.543
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:28.801
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:29.579
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:30.932
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:31.169
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:31.170
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:31.170
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:31.347
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:31.348
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:31.348
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:31.602
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:32.169
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:32.410
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:32.411
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:32.411
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:32.634
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:32.634
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:32.634
+!MESSAGE Reconciled 0, validated: 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:34.377
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:34.615
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:34.615
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:34.616
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:34.657
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:34.904
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:35.146
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:35.146
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:35.147
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:35.320
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:35.320
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:35.321
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:35.577
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:36.703
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:36.947
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:37.311
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:37.653
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:38.356
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:38.691
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:42.569
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:42.766
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.013
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.014
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.015
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.181
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.181
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.181
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.436
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.697
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.939
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.940
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:43.940
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:44.135
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:44.315
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:44.565
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:44.566
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:44.568
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:44.732
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:44.732
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:44.732
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:44.987
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:47.314
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:47.844
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:50.407
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:50.650
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:50.651
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:50.651
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:50.872
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:50.872
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:50.872
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:51.130
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:52.244
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:52.488
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:52.488
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:52.489
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:52.634
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:52.873
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:52.873
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:52.874
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.050
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.050
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.051
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.104
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.353
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.353
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.354
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.431
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.671
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.671
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.672
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.850
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.850
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:53.850
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:54.104
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:55.126
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:55.376
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:55.728
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:56.559
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:57.016
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:57.347
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:57.626
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:57.963
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:58.434
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:40:59.963
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:00.438
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:06.751
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:15.865
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.113
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.113
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.114
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.330
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.331
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.331
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.369
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.399
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.421
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.459
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.484
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.517
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.543
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.580
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.604
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.632
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.882
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.883
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.883
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:16.889
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.123
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.372
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.373
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.373
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.379
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.628
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.628
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.629
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.800
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.800
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.800
+!MESSAGE Reconciled 0, validated: 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:17.903
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:18.146
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:18.147
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:18.148
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:18.317
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:18.317
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:18.318
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:18.579
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:18.893
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:19.132
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:19.132
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:19.132
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:19.310
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:19.311
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:19.311
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:19.567
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:20.305
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:21.097
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:21.334
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:21.584
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:21.585
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:21.585
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:21.798
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:21.799
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:21.799
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:22.053
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:23.779
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.014
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.015
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.015
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.194
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.194
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.195
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.304
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.466
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.707
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.708
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.708
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.883
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.883
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:24.883
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:25.138
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:27.016
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:28.586
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:29.165
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:29.406
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:29.951
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:30.300
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:30.908
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:31.186
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:31.523
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:34.722
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:34.970
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:34.971
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:34.971
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.147
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.387
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.388
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.389
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.561
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.561
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.562
+!MESSAGE Reconciled 0, validated: 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.715
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.816
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.964
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:35.965
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.132
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.132
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.133
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.135
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.385
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.386
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.389
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.552
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.552
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.552
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:36.806
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:37.450
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:38.009
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:38.499
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:39.122
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:39.396
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:40.393
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:40.562
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:40.777
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:41.018
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:41.019
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:41.019
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:41.194
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:41.194
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:41.194
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:41.646
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:42.148
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:42.587
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:44.068
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:44.308
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:44.309
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:44.310
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:44.347
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:44.546
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:44.787
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:44.788
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:44.789
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:45.016
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:45.017
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:45.017
+!MESSAGE Reconciled 0, validated: 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:46.308
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:46.899
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:50.966
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:51.548
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:52.046
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:55.375
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:56.649
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:56.953
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:57.490
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:41:58.669
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:01.365
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:02.119
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:02.590
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:03.323
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:04.024
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:04.355
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:04.620
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:04.760
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:05.003
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:05.300
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:05.948
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:06.320
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:06.919
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:07.565
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:10.337
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:10.797
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:11.101
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:11.492
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:12.369
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:13.540
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:13.781
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:13.782
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:13.782
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.007
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.007
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.008
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.261
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.461
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.704
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.704
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.704
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.877
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.877
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:14.877
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:15.132
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:22.210
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:22.889
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:23.516
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:26.146
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:26.388
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:26.388
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:26.389
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:26.524
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:26.525
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:26.527
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:26.774
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:27.012
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:27.013
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:27.018
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:27.188
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:27.188
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:27.188
+!MESSAGE Reconciled 0, validated: 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:27.446
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:28.225
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:28.686
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:30.365
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:30.672
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:31.048
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:31.326
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:31.608
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:31.870
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:32.191
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:32.641
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:32.854
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:33.095
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:33.097
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:33.098
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:33.319
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:33.319
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:33.319
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:34.055
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:34.298
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:34.796
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:35.258
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:36.758
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:36.961
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:37.140
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:37.377
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:37.377
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:37.378
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:37.555
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:37.556
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:37.556
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:37.810
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:40.524
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:40.821
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:41.077
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:42.170
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:42.411
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:42.412
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:42.635
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:42.635
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:42.635
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:44.579
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:44.582
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:44.630
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:44.690
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.042
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.043
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.043
+!MESSAGE Reconciled 0, validated: 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.204
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.205
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.620
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.620
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.620
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.707
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.707
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.708
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.708
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:45.873
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:46.181
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:46.374
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:46.519
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:46.522
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:46.565
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:46.718
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:46.983
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:46.983
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:46.983
+!MESSAGE Reconciled 0, validated: 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:47.117
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:47.117
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:47.118
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:47.237
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:47.823
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:47.874
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:48.290
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:48.290
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:48.290
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:48.377
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:48.377
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:48.378
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:48.544
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.039
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.093
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.304
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.304
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.304
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.500
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.501
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.501
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.755
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.793
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:49.830
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:50.043
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:50.043
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:50.044
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:50.257
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:50.257
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:50.258
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:50.511
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:52.579
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:52.812
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.048
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.048
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.048
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.054
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.303
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.303
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.304
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.521
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.521
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.521
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:53.776
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:54.175
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:54.217
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:54.299
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:54.549
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:54.549
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:54.550
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:54.765
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:54.766
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:54.766
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:55.020
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:58.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:58.942
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:59.172
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:59.421
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:59.422
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:59.587
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:59.587
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:59.587
+!MESSAGE Reconciled 0, validated: 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:59.843
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:59.850
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:59.878
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:42:59.916
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.086
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.086
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.087
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.142
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.337
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.524
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.551
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.663
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.700
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.907
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.907
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:00.908
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:01.128
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:01.129
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:01.129
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:01.385
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:01.727
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:01.758
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:01.976
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:01.976
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:01.978
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:02.190
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:02.191
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:02.191
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:02.447
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:02.921
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:02.947
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:03.170
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:03.170
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:03.171
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:03.335
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:03.336
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:03.336
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:03.590
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:06.465
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:06.714
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:06.715
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:06.718
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:06.932
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:06.932
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:06.933
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:06.969
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:07.004
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:07.021
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:07.063
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:07.273
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:07.491
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:07.734
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:07.734
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:07.957
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:07.957
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:07.958
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.192
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.197
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.231
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.315
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.433
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.433
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.434
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.568
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.606
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.686
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.931
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.932
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:08.932
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:09.149
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:09.149
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:09.150
+!MESSAGE Reconciled 0, validated: 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:09.407
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:09.468
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:09.635
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:09.773
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:10.015
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:10.015
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:10.018
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:10.238
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:10.238
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:10.239
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:10.494
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.302
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.303
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.319
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.324
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.548
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.548
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.549
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.582
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.600
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.824
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.824
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:11.826
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:12.058
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:12.059
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:12.059
+!MESSAGE Reconciled 0, validated: 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:12.317
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:15.476
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:18.360
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:18.589
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:18.828
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:18.829
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:18.829
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.051
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.051
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.051
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.306
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.704
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.705
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.742
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.748
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.943
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.943
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:19.944
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:20.173
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:20.173
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:20.173
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:20.862
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:20.881
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.103
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.103
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.104
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.327
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.328
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.328
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.328
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.577
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.579
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.582
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.742
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.742
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.742
+!MESSAGE Reconciled 0, validated: 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:21.997
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:23.984
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:24.344
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:24.630
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:25.139
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:25.160
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:25.194
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:25.223
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:25.252
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:25.285
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:25.324
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:25.343
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:26.197
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:26.444
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:26.444
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:26.446
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:26.662
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:26.662
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:26.662
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:26.917
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:27.872
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:29.889
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:30.127
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:30.128
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:30.128
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:30.320
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:30.320
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:30.320
+!MESSAGE Reconciled 0, validated: 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:31.684
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:31.932
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:31.932
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:31.934
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:32.148
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:32.149
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:32.149
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.344
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.346
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.380
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.430
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.581
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.581
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.583
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.688
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.892
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.921
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:33.989
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:34.231
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:34.231
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:34.231
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:34.455
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:34.455
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:34.455
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:34.784
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:34.901
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:35.091
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:35.334
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:35.334
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:35.335
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:35.506
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:35.506
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:35.507
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:36.196
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:36.437
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:36.437
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:36.438
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:36.705
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:36.706
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:36.706
+!MESSAGE Reconciled 0, validated: 1. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:36.964
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:37.190
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:37.440
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:37.441
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:37.441
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:37.658
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:37.658
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:37.659
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:37.850
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:38.097
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:38.097
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:38.098
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:38.320
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:38.320
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:38.320
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:38.576
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:40.329
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:40.572
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:40.572
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:40.572
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:40.793
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:40.793
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:40.793
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:41.046
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:43.653
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:43.897
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:43.897
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:43.898
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:44.070
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:44.070
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:44.070
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:45.156
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:45.393
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:45.394
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:45.394
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:45.573
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:45.573
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:45.573
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:45.827
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:46.103
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:46.344
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:46.344
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:46.345
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:46.521
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:46.521
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:46.521
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:46.779
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:50.713
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:50.952
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:50.953
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:50.956
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:51.126
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:51.126
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:51.126
+!MESSAGE Reconciled 0, validated: 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:51.380
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:52.866
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:53.111
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:53.111
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:53.112
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:53.281
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:53.281
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:53.281
+!MESSAGE Reconciled 0, validated: 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:53.549
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:53.791
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:53.791
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:53.792
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.014
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.014
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.014
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.104
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.354
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.354
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.355
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.569
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.569
+!MESSAGE 4 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.570
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:54.824
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:55.903
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:56.144
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:56.145
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:56.146
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:56.319
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:56.319
+!MESSAGE 3 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:56.319
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:56.577
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:58.420
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:58.494
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:58.635
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:58.805
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:43:59.112
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:16.188
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:16.301
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:16.549
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:17.531
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:17.834
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:18.079
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:18.079
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:18.080
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:18.298
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:18.298
+!MESSAGE 2 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:18.298
+!MESSAGE Reconciled 0, validated: 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:18.557
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:19.016
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:19.858
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.106
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.106
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.107
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.320
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.320
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.321
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.570
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.575
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.639
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.790
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:20.979
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:21.285
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:25.639
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:26.016
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:26.074
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:26.323
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:27.219
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:28.487
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:28.742
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:28.743
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:28.743
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:28.911
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:28.911
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:28.911
+!MESSAGE Reconciled 0, validated: 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:29.167
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:29.308
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:30.301
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:33.393
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:33.638
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:33.706
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:33.941
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:52.998
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:52.999
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:53.229
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:53.230
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:53.230
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 16:44:54.049
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 21:35:43.392
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 21:35:43.487
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 21:35:43.487
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY java-debug 1 0 2018-12-23 21:35:43.507
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-23 21:35:43.507
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2018-12-24 20:02:52.593 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/arturo/.config/Code/User/workspaceStorage/c1823adfafd099061a380a77e5b3369f/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:00.654
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:01.097
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:01.175
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:01.176
+!MESSAGE Initializing Java Language Server 0.30.0.201812180453
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:01.180
+!MESSAGE No workspace folders or root uri was defined. Falling back on /home/arturo/.config/Code/User/workspaceStorage/c1823adfafd099061a380a77e5b3369f/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:01.381
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:03.009
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:03.044
+!MESSAGE Workspace initialized in 1861ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:03.187
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:03.188
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:03.201
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=ignore}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=true, showQualifiedNames=false, maxStringLength=0.0, enableHotCodeReplace=true, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true}}, dependency={showOutline=true, syncWithFolderExplorer=true, packagePresentation=flat}, test={report={position=sideView}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:03.203
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:03.274
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/arturo/Downloads/exp/e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:04.566
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:04.567
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:03:04.569
+!MESSAGE Reconciled 0, validated: 1. Took 383 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:05:21.974
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:05:22.069
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:05:22.202
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:05:22.202
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:05:22.203
+!MESSAGE >> document/codeAction
+
+!ENTRY java-debug 1 0 2018-12-24 20:05:22.423
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-24 20:05:25.010
+!MESSAGE >> workspace/executeCommand java.resolvePath
+!SESSION 2018-12-26 13:28:27.805 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/arturo/.config/Code/User/workspaceStorage/c1823adfafd099061a380a77e5b3369f/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:34.528
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:34.961
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:35.018
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:35.018
+!MESSAGE Initializing Java Language Server 0.30.0.201812180453
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:35.022
+!MESSAGE No workspace folders or root uri was defined. Falling back on /home/arturo/.config/Code/User/workspaceStorage/c1823adfafd099061a380a77e5b3369f/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:35.364
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:37.474
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:37.516
+!MESSAGE Workspace initialized in 2481ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:37.686
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:37.687
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:37.698
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=ignore}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=true, showQualifiedNames=false, maxStringLength=0.0, enableHotCodeReplace=true, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true}}, dependency={showOutline=true, syncWithFolderExplorer=true, packagePresentation=flat}, test={report={position=sideView}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:37.699
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:37.702
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/arturo/Downloads/exp/e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:40.048
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:40.048
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 13:28:40.051
+!MESSAGE Reconciled 0, validated: 1. Took 265 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:08.298
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:08.478
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:08.525
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:08.526
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:08.528
+!MESSAGE >> document/codeAction
+
+!ENTRY java-debug 1 0 2018-12-26 15:20:09.044
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:09.071
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:11.343
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:11.790
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:14.619
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:14.868
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:16.036
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:17.406
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:17.647
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:17.648
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:17.892
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:17.892
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:17.893
+!MESSAGE Reconciled 0, validated: 1. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:22.393
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:22.396
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:22.608
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:22.620
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:22.641
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:22.643
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:22.644
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:22.821
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:22.821
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:22.821
+!MESSAGE Reconciled 0, validated: 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:24.251
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:24.495
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:24.496
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:24.499
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:24.672
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:24.672
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:24.672
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:24.993
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:25.237
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:25.238
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:25.465
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:25.465
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:25.465
+!MESSAGE Reconciled 0, validated: 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:26.288
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:26.533
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:26.534
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:26.534
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:26.710
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:26.710
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:26.710
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:27.078
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:27.282
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:27.416
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:27.586
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:27.724
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:27.927
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:28.178
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:28.179
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:28.245
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:28.489
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:28.490
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:28.490
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:28.715
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:28.715
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:28.715
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:28.855
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:29.046
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:29.166
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:29.325
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:29.423
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:29.665
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:29.666
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:29.842
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:29.843
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:29.843
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:32.173
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:32.417
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:32.444
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:32.444
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:32.642
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:32.642
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:32.642
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:33.077
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:33.327
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:33.425
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:33.549
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:33.792
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:33.793
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:33.794
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:34.030
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:34.030
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:34.030
+!MESSAGE Reconciled 0, validated: 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:34.948
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:35.185
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:35.185
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:35.369
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:35.369
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:35.369
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:40.433
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:40.643
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:40.892
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:40.893
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:40.894
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:40.908
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:41.155
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:41.156
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:41.156
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:41.340
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:41.575
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:41.794
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:42.040
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:42.041
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:42.264
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:42.265
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:42.265
+!MESSAGE Reconciled 0, validated: 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.320
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.321
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.325
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.330
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.561
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.562
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.562
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.789
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.789
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.789
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:43.862
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.106
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.107
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.108
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.154
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.397
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.399
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.400
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.623
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.623
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.623
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.738
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.983
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.984
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:44.984
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:45.159
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:45.404
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:45.405
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:45.626
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:45.626
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:45.626
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:50.149
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:50.393
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:50.394
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:50.396
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:50.466
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:50.716
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:50.717
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:50.717
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:50.790
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:51.038
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:51.039
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:51.040
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:51.062
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:51.310
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:51.310
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:51.311
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:51.480
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:51.480
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:51.480
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:52.175
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:52.417
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:52.419
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:52.419
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:52.596
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:52.596
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:52.596
+!MESSAGE Reconciled 0, validated: 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:52.750
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:52.883
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:53.056
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:53.172
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:53.416
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:53.417
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:53.418
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:53.638
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:53.638
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:53.638
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:54.050
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:54.295
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:54.296
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:54.471
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:54.471
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:20:54.471
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:21:09.832
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:49.648
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:49.650
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:49.880
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:49.881
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:51.160
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:51.560
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:56.168
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:56.355
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:56.579
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:56.781
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:56.994
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:57.220
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:57.451
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:57.651
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:57.900
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:57.901
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:57.901
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:57.993
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:58.243
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:58.244
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:58.347
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:58.596
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:58.597
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:58.813
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:58.817
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:58.817
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:58.817
+!MESSAGE Reconciled 0, validated: 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:59.062
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:59.063
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:59.063
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:59.282
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:59.282
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:22:59.282
+!MESSAGE Reconciled 0, validated: 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:01.991
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:02.237
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:02.237
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:02.237
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:02.412
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:02.412
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:02.413
+!MESSAGE Reconciled 0, validated: 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:07.814
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:08.063
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:08.064
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:08.066
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:08.281
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:08.281
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:08.281
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:08.346
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:08.592
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.107
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.266
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.515
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.516
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.516
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.684
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.684
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.685
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.766
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.802
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.825
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.858
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.888
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.919
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.953
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:09.984
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.013
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.044
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.072
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.102
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.138
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.158
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.195
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.223
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.247
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.283
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.313
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.339
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.368
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.400
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.601
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.781
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:10.898
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.052
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.292
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.293
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.293
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.401
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.645
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.646
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.646
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.868
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.868
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:11.868
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:14.808
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:14.810
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:16.403
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:16.521
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:16.655
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:16.792
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.036
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.037
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.037
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.258
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.258
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.258
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.411
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.652
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.652
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.875
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.876
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:17.876
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.060
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.080
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.229
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.416
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.428
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.429
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.429
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.527
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.527
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.527
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.773
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.774
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.996
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.996
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:19.997
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:20.529
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:20.774
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:20.774
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:20.774
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:20.870
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:20.871
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:20.876
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:21.113
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:21.113
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:21.114
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:21.120
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:21.368
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:21.368
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:21.370
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:21.582
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:21.582
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:21.583
+!MESSAGE Reconciled 0, validated: 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:23.182
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:23.421
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:23.422
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:23.650
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:23.650
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:23.650
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:25.062
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:25.063
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:25.068
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:25.071
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:25.307
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:25.307
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:25.308
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:25.529
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:25.530
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:25.530
+!MESSAGE Reconciled 0, validated: 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:27.783
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:28.562
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:29.532
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:30.055
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:30.869
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:31.402
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:31.784
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:32.158
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:32.593
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:32.988
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:33.584
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:23:47.432
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:40.374
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:40.503
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:40.684
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:40.866
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:40.992
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.238
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.239
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.240
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.460
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.460
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.460
+!MESSAGE Reconciled 0, validated: 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.474
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.723
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.724
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.939
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.939
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:41.939
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:42.851
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.101
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.102
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.102
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.233
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.475
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.475
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.476
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.541
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.793
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.794
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:43.795
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.008
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.008
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.008
+!MESSAGE Reconciled 0, validated: 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.038
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.068
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.099
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.137
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.318
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.564
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.813
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:44.814
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.034
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.035
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.035
+!MESSAGE Reconciled 0, validated: 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.188
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.438
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.438
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.439
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.554
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.803
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.805
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:45.928
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:46.177
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:46.177
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:46.329
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:46.579
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:46.579
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:46.579
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:46.746
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:46.746
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:46.747
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:48.309
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:50.762
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:50.919
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:51.045
+!MESSAGE >> workspace/executeCommand vscode.java.updateDebugSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:51.083
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:51.141
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:52.386
+!MESSAGE >> workspace/executeCommand vscode.java.validateLaunchConfig
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:52.403
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:52.452
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:24:53.883
+!MESSAGE >> workspace/executeCommand vscode.java.fetchUsageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:04.998
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:06.197
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:06.598
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:06.944
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:07.467
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:07.733
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:09.815
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:10.062
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:10.062
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:10.063
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:10.361
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:10.362
+!MESSAGE 1 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:10.362
+!MESSAGE Reconciled 0, validated: 1. Took 96 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:10.622
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:11.070
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:13.738
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:13.816
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:13.825
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:14.050
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:14.914
+!MESSAGE >> workspace/executeCommand vscode.java.validateLaunchConfig
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:14.916
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:14.920
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:15.382
+!MESSAGE >> workspace/executeCommand vscode.java.fetchUsageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:20.210
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:21.550
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:22.491
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:22.737
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:22.738
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:22.738
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:22.959
+!MESSAGE begin problem for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:22.959
+!MESSAGE 0 problems reported for /e.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:22.959
+!MESSAGE Reconciled 0, validated: 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:23.214
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:24.175
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:25.146
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:27.247
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:27.323
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:27.336
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:27.559
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:28.354
+!MESSAGE >> workspace/executeCommand vscode.java.validateLaunchConfig
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:28.356
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:28.357
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:28.424
+!MESSAGE >> workspace/executeCommand vscode.java.fetchUsageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 15:25:35.611
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 19:01:10.965
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 19:01:10.968
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 19:01:11.195
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 19:01:11.195
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 19:01:11.196
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 19:01:13.931
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 19:13:43.908
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 19:16:07.001
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:00:27.843
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:13:57.127
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:13:58.326
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:13:58.329
+!MESSAGE Clearing problems for /e.java
+!SESSION 2018-12-26 20:23:40.583 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/arturo/.config/Code/User/workspaceStorage/c1823adfafd099061a380a77e5b3369f/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-12-26 20:23:42.623
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:47.243
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:47.933
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:47.981
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:47.982
+!MESSAGE Initializing Java Language Server 0.30.0.201812180453
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:47.987
+!MESSAGE No workspace folders or root uri was defined. Falling back on /home/arturo/.config/Code/User/workspaceStorage/c1823adfafd099061a380a77e5b3369f/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:48.352
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:49.622
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:49.667
+!MESSAGE Workspace initialized in 1674ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:49.686
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:49.687
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-12-26 20:23:49.697
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=ignore}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=true, showQualifiedNames=false, maxStringLength=0.0, enableHotCodeReplace=true, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true}}, dependency={showOutline=true, syncWithFolderExplorer=true, packagePresentation=flat}, test={report={position=sideView}}}}
